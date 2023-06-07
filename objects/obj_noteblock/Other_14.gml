@@ -31,58 +31,58 @@ if (x > (camera_get_view_x(view_get_camera(0)) - 128) && (x + 16) < ((camera_get
             switch objeto.object_index
             {
                 case obj_galoomba:
-                    index = 240
+                    index = snd_mb_goomba
                     break
-                case 31:
-                    index = 241
+                case obj_galoomba2:
+                    index = snd_mb_goombrat
                     break
-                case 32:
-                    index = 242
+                case obj_koopa:
+                    index = snd_mb_green_koopa
                     break
-                case 26:
-                    index = 242
+                case obj_koopa_b:
+                    index = snd_mb_green_koopa
                     break
-                case 33:
-                    index = 243
+                case obj_koopa_red:
+                    index = snd_mb_red_koopa
                     break
-                case 27:
-                    index = 243
+                case obj_koopa_red_b:
+                    index = snd_mb_red_koopa
                     break
-                case 139:
-                    index = 244
+                case obj_muncher:
+                    index = snd_mb_muncher
                     break
-                case 219:
-                    index = 246
+                case obj_mushroom:
+                    index = snd_mb_mushroom
                     break
-                case 223:
-                    index = 249
+                case obj_megamushroom:
+                    index = snd_mb_megamushroom
                     break
-                case 220:
-                    index = 247
+                case obj_fireflower:
+                    index = snd_mb_fireflower
                     break
-                case 221:
-                    index = 248
+                case obj_superflower:
+                    index = snd_mb_superflower
                     break
-                case 231:
-                    index = 250
+                case obj_superarcon:
+                    index = snd_mb_arcon
                     break
-                case 228:
-                    index = 251
+                case obj_frogsuit:
+                    index = snd_mb_frogsuit
                     break
-                case 218:
-                    index = 252
+                case obj_1up:
+                    index = snd_mb_1up
                     break
-                case 226:
-                    index = 255
+                case obj_star:
+                    index = snd_mb_star
                     break
-                case 44:
-                    index = 253
+                case obj_jumppiranha:
+                    index = snd_mb_plant
                     break
-                case 46:
-                    index = 254
+                case obj_plant_fire:
+                    index = snd_mb_fireplant
                     break
                 default:
-                    index = 245
+                    index = snd_mb_mario
             }
 
             event_user(5)

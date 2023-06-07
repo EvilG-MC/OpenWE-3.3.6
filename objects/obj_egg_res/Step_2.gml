@@ -15,7 +15,10 @@ if (obj_levelmanager.editor == 1)
             wings_y = 20
             break
         case 2:
-            sprite_index = spr_egg
+			if wings = 0
+				sprite_index = spr_egg
+			else
+				sprite_index = spr_egg_blue
             w_sprite = spr_wings_editor_16x16
             wings_x = 0
             wings_y = 0
@@ -29,4 +32,4 @@ if (obj_levelmanager.editor == 1)
     }
 
 }
-
+show_debug_message(wings)

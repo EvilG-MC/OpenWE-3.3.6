@@ -74,8 +74,10 @@ else
     {
         if (object_index == obj_egg_red)
             sprite_index = spr_egg_red
-        else
+        else if (object_index == obj_egg)
             sprite_index = spr_egg
+		else if (object_index == obj_egg_blue)
+            sprite_index = spr_egg_blue
     }
     if (wings == 0 || paracaidas == 1)
         event_inherited()
@@ -145,4 +147,4 @@ else
         }
     }
 }
-
+show_debug_message(wings)

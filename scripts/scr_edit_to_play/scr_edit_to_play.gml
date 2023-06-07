@@ -1204,7 +1204,7 @@ function scr_edit_to_play() {
 	    with (obj_floruga_res)
 	    {
 	        visible = false
-	        instance_create((x + 8), y, obj_fishbone)
+	        instance_create((x + 8), y, obj_floruga)
 	    }
 	}
 	if instance_exists(obj_floruga_angry_res)
@@ -1368,11 +1368,20 @@ function scr_edit_to_play() {
 	        visible = false
 	        if (global.apariencia == 2)
 	        {
+			if (wings == 0){
 	            with (instance_create(x, y, obj_egg))
 	            {
 	                wings = other.wings
 	                paracaidas = other.paracaidas
 	            }
+			}
+			else if (wings == 1){
+	            with (instance_create(x, y, obj_egg_blue))
+	            {
+	                wings = other.wings
+	                paracaidas = other.paracaidas
+	            }
+			}
 	        }
 	        else if (global.apariencia < 2)
 	        {

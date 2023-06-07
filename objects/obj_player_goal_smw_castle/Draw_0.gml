@@ -5,7 +5,12 @@ if (global.yoshi == 1)
         var s_yoshi = spr_yoshi_red
         var s_yoshi_jump = spr_yoshi_jump_red
     }
-    else
+    else if instance_exists(obj_yoshi_blue)
+    {
+        s_yoshi = spr_yoshi_blue
+        s_yoshi_jump = spr_yoshi_jump_blue
+    }
+    else if instance_exists(obj_yoshi2)
     {
         s_yoshi = spr_yoshi
         s_yoshi_jump = spr_yoshi_jump

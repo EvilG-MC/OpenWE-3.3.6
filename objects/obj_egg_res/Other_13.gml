@@ -11,9 +11,9 @@ if (global.apariencia == 2)
     {
         with (obj_card_item)
         {
-            if (obj == 596)
+            if (obj == obj_egg_res)
             {
-                obj = 597
+                obj = obj_egg_red_res
                 obj_draw = 60
             }
         }

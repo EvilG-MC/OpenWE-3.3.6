@@ -28,6 +28,7 @@ fluttertime = 0
 f = 0
 myy = 0
 stateprev = 0
+wings = 1
 if (global.carrieditem != noone)
 {
     mouthholder = global.carrieditem
@@ -43,3 +44,4 @@ s_yoshi_wait = spr_yoshi_wait
 s_yoshi_fm = spr_yoshi_fm
 s_yoshi = spr_yoshi
 s_yoshi_fm_jump = spr_yoshi_fm_jump
+

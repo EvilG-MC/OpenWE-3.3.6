@@ -36,9 +36,16 @@ if (global.yoshi > 0)
     {
         if instance_exists(obj_yoshi_red)
             draw_sprite_ext(spr_yoshi_red, image_index, round(x), (round(y) + 17), direct, 1, 0, c_white, image_alpha)
+        else if instance_exists(obj_yoshi_blue)
+        {
+            if (obj_yoshi_blue.mouthholder != noone)
+                draw_sprite_ext(spr_yoshi_fm_blue, image_index, round(x), (round(y) + 17), direct, 1, 0, c_white, image_alpha)
+            else
+                draw_sprite_ext(spr_yoshi_blue, image_index, round(x), (round(y) + 17), direct, 1, 0, c_white, image_alpha)
+        }
         else if instance_exists(obj_yoshi2)
         {
-            if (obj_yoshi2.mouthholder != -4)
+            if (obj_yoshi2.mouthholder != noone)
                 draw_sprite_ext(spr_yoshi_fm, image_index, round(x), (round(y) + 17), direct, 1, 0, c_white, image_alpha)
             else
                 draw_sprite_ext(spr_yoshi, image_index, round(x), (round(y) + 17), direct, 1, 0, c_white, image_alpha)

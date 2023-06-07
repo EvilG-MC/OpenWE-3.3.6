@@ -125,7 +125,7 @@ function scr_init_globals() {
 	global.powerup = 0
 	global.reserveitem = 0
 	global.keys = 0
-    global.carrieditem = -4
+    global.carrieditem = noone
 	global.checkpoint = -4
 	global.checkpoint_x = 0
 	global.checkpoint_y = 0

@@ -20,6 +20,7 @@ else
     }
     else
     {
+        sprite_index = spr_egg
         image_speed = 0
         alarm[10] = 2
     }

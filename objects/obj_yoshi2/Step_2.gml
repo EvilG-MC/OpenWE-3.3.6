@@ -1,3 +1,4 @@
+#region Yoshi Logic
 if instance_exists(obj_frozenmario)
     event_user(1)
 if instance_exists(obj_mario)
@@ -32,10 +33,13 @@ if instance_exists(obj_mario)
         jumping = 1
     else
     {
-        jumping = 0
-        flutter = 0
+        //End jumping
+        jumping = 0;
+        
+        //Allow fluttering        
+        flutter = 0;
         if (fluttertime > 0)
-            fluttertime = 0
+            fluttertime = 0;
     }
 }
 else
@@ -59,6 +63,8 @@ else
         depth = follow.depth
     }
 }
+#endregion
+#region Animations
 if instance_exists(obj_mario)
 {
     if licking
@@ -211,3 +217,4 @@ if (sprite_index == s_yoshi || sprite_index == s_yoshi_fm)
 }
 else
     myy = 0
+#endregion

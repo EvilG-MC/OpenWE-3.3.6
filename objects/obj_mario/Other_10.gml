@@ -7,16 +7,20 @@ if (invincible == 0)
             event_user(6)
             if instance_exists(obj_yoshi_red)
                 var yoshi = obj_yoshi_red
-            else
+            else if instance_exists(obj_yoshi_blue)
+                yoshi = obj_yoshi_blue
+            else if instance_exists(obj_yoshi2)
                 yoshi = obj_yoshi2
             if instance_exists(yoshi)
             {
                 if (yoshi == obj_yoshi_red)
                     var yoshis = obj_yoshi_runaway_red
-                else
+                else if (yoshi == obj_yoshi_blue)
+                    yoshis = obj_yoshi_runaway_blue
+                else if (yoshi == obj_yoshi2)
                     yoshis = obj_yoshi_runaway
                 var yoshi_r = instance_create(yoshi.x, yoshi.y, yoshis)
-                if (yoshi.mouthholder != -4)
+                if (yoshi.mouthholder != noone)
                 {
                     yoshi_r.mouthholder = yoshi.mouthholder
                     yoshi_r.mouthsprite = yoshi.mouthsprite

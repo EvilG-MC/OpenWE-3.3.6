@@ -188,12 +188,22 @@ with (obj_yoshi_red)
     if (visible == true)
         scr_shadow_yoshi()
 }
+with (obj_yoshi_blue)
+{
+    if (visible == true)
+        scr_shadow_yoshi()
+}
 with (obj_yoshi_runaway)
 {
     if (visible == true)
         scr_shadow_mario()
 }
 with (obj_yoshi_runaway_red)
+{
+    if (visible == true)
+        scr_shadow_mario()
+}
+with (obj_yoshi_runaway_blue)
 {
     if (visible == true)
         scr_shadow_mario()

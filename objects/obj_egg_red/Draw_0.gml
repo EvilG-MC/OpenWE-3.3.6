@@ -20,7 +20,7 @@ else if (global.apariencia == 2)
 {
     draw_sprite_ext(sprite_index, -1, round(x), (round(y) + 1), 1, 1, 0, c_white, 1)
     if (wings == 1)
-        draw_sprite(spr_wings_items_big, wings_anim, (x - 16), (y - 16))
+        draw_sprite(spr_wings2, wings_anim, (x - 16), (y - 16))
     if (paracaidas == 1)
         draw_sprite_ext(spr_paracaidas, global.apariencia, x, (y - 16), 1, 1, image_angle, c_white, 1)
 }
