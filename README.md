@@ -22,6 +22,12 @@ Algunos de los mas importantes son:
 ## Vini 
 ![Screenshot_156](https://images-ext-1.discordapp.net/external/KBy9oLa6_ndM8R-cDQ9t15vlHxhncbibCf1vNs5kPZ0/%3Fsize%3D256/https/cdn.discordapp.com/avatars/913022807842123817/2d66ff3eea6cf83d79998b66842feb7b.png?width=230&height=230)
 
+# REGLAS DE USO
+
+1. Este codigo fuente (y en general todos los publicados en la organizacion) no puede ser utilizado para cosas lucrativas. Si lo vas a usar que sea para uso personal o cosas sina nimo de lucro.
+
+2. Unicamente este codigo fuente, no puede ser utilizado para concursos, asi tengan o no tengan premios. Esto porque prefiero que no haya confusion con algunas cosas. 
+
 # ¿Quieres reportar bugs?
 
 Entra al discord oficial de este proyecto y reportalos en el foro indicado.
