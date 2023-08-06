@@ -26,12 +26,4 @@ Algunos de los mas importantes son:
 
 1. Este codigo fuente (y en general todos los publicados en la organizacion) no puede ser utilizado para cosas lucrativas. Si lo vas a usar que sea para uso personal o cosas sina nimo de lucro.
 
-2. Unicamente este codigo fuente, no puede ser utilizado para concursos, asi tengan o no tengan premios. Esto porque prefiero que no haya confusion con algunas cosas. 
-
-# ¿Quieres reportar bugs?
-
-Entra al discord oficial de este proyecto y reportalos en el foro indicado.
-
-https://discord.gg/engine-empire-source-central-971098944673288233
-
-![Screenshot_156](https://images-ext-2.discordapp.net/external/HhxdtCPccB509vQDpG2LmlgrLs0g0moGla8mXmLiCQ8/%3Fsize%3D256/https/cdn.discordapp.com/icons/971098944673288233/a_cca04d2810373834a19dc719bd0b6b90.gif?width=230&height=230)
+2. No puedes utilizar este codigo fuente para vulnerar los servidores de Niveles Mundiales y hacer uso malintencionado del mismo sin previa autorizacion de posibles cambios al propietario de Engine Kingdom: https://discord.gg/YwpyCfHgSr
